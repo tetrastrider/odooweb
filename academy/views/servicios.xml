@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+                <template id="servicios">
+
+    <xpath expr="." position = "inside">
+      <link rel="stylesheet" href="academy/static/src/css/estilos.css"/>
+      <link rel="stylesheet" type="text/css" href="academy/static/src/css/servicios/index.css"/>
+      <link rel="stylesheet" type="text/css" href="academy/static/src/css/font-awesome.css"/>
+      <script type="text/javascript" src="academy/static/src/js/jq.js"></script>
+      <script type="text/javascript" src="academy/static/src/js/servicios/index.js"></script>
+      <script type="text/javascript" src="academy/static/src/js/jQuery-TE/jquery-te-1.4.0.min.js"></script>
+    </xpath>
+
+            <title>servicios</title>
+
+<ul class="social"><li id='fcont'><i class="fa fa-map-marker"></i> <span>sarasota esq higuemota bella vista los robles 1 A 2</span></li>
+<li id='fcont'><i class="fa fa-phone"></i> <span>829 384 0994</span></li><li class="face"></li> <li class="twi"></li> <li class="gog"></li> <li class="cor"></li> </ul>
+    <header>
+<!--FIN-->
+<a t-attf-href="/"><span class="logo"></span></a>
+<nav>
+  <a t-attf-href="/">Inicio</a>
+  <a t-attf-href="/noticias">Noticias</a>
+  <a t-attf-href="/acerca">Doctores</a>
+  <a t-attf-href="/servicios" id="activo">Servicios</a>
+
+  <a t-attf-href="contacto" title='hacer una cita' id='cita'>hacer una cita</a>
+</nav>
+</header> <section>
+<article>
+<img src="academy/static/src/imagenes/cirugia.jpg"/>
+<h4>cirugia</h4>
+<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero</p>
+</article>
+
+
+<article>
+<img src="academy/static/src/imagenes/blanquear.jpg"/>
+<h4>blanqueamiento de dientes</h4>
+<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</article>
+
+
+<article>
+<img src="academy/static/src/imagenes/implante.jpg"/>
+<h4>implante dental</h4>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+</article>
+ </section>
+<!--FIN-->
+<footer>
+    <div class='footmenu'><a t-attf-href="/">Inicio</a> <a t-attf-href="/noticias">Noticias</a> <a t-attf-href="/acerca">Qu&amp;iacute;enes Somos</a> <a t-attf-href="/servicios">Servicios</a> <a t-attf-href="/contacto">Contacto</a>
+</div>
+     <div class='copy'> <h3 title='OVERCLOCKTECH 2016Dise&amp;ntilde;o y Programac&amp;iacute;on Todos los derechos reservados &amp;copy; Alexander Brache inf 829-384-0994'>&amp;nbsp;&amp;copy; OVERCLOCKTECH&amp;nbsp; 2016</h3></div> 
+</footer>
+  <div id='IrArriba'>
+<![CDATA[<a href='#Arriba'><span><span/></a>]]>
+    </div>
+
+      <script type="text/javascript" src="academy/static/src/js/jq.js"></script>
+       <script>jQuery.noConflict();jQuery(document).ready(function(){jQuery("#IrArriba").hide();jQuery(function(){jQuery(window).scroll(function(){if(jQuery(this).scrollTop()>200){jQuery("#IrArriba").fadeIn()}else{jQuery("#IrArriba").fadeOut()}});jQuery("#IrArriba a").click(function(){jQuery("body,html").animate({scrollTop:0},1000);return false})})});</script>
+
+        </template>
+    </data>
+</odoo>

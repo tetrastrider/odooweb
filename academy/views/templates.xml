@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+                <template id="index">
+
+    <xpath expr="." position = "inside">
+      <link rel="stylesheet" href="academy/static/src/css/estilos.css"/>
+      <link rel="stylesheet" type="text/css" href="academy/static/src/css/inicio/index.css"/>
+      <link rel="stylesheet" type="text/css" href="academy/static/src/css/font-awesome.css"/>
+      <script type="text/javascript" src="academy/static/src/js/jq.js"></script>
+      <script type="text/javascript" src="academy/static/src/js/inicio/index.js"></script>
+      <script type="text/javascript" src="academy/static/src/js/jQuery-TE/jquery-te-1.4.0.min.js"></script>
+    </xpath>
+
+            <title>Inicio</title>
+
+<ul class="social"><li id='fcont'><i class="fa fa-map-marker"></i> <span>sarasota esq higuemota bella vista los robles 1 A 2</span></li>
+<li id='fcont'><i class="fa fa-phone"></i> <span>829 384 0994</span></li><li class="face"></li> <li class="twi"></li> <li class="gog"></li> <li class="cor"></li> </ul>
+    <header>
+
+
+<a t-attf-href="/"><span class="logo"></span></a>
+<nav>
+    <a t-attf-href="/" id="activo">Inicio</a>
+    <a t-attf-href="/noticias">Noticias</a>
+    <a t-attf-href="/acerca">Doctores</a>
+    <a t-attf-href="/servicios">Servicios</a>
+
+    <a t-attf-href="/contacto" title='hacer una cita' id='cita'>hacer una cita</a>
+</nav>
+</header>
+         <div class='csslider1 autoplay '>
+        <input name="cs_anchor1" id='cs_slide1_0' type="radio" class='cs_anchor slide' />
+        <input name="cs_anchor1" id='cs_slide1_1' type="radio" class='cs_anchor slide' />
+        <input name="cs_anchor1" id='cs_slide1_2' type="radio" class='cs_anchor slide' />
+        <input name="cs_anchor1" id='cs_play1' type="radio" class='cs_anchor' checked="checked"/>
+        <input name="cs_anchor1" id='cs_pause1_0' type="radio" class='cs_anchor pause'/>
+        <input name="cs_anchor1" id='cs_pause1_1' type="radio" class='cs_anchor pause'/>
+        <input name="cs_anchor1" id='cs_pause1_2' type="radio" class='cs_anchor pause'/>
+        <ul>
+            <li class="cs_skeleton"><img src="academy/static/src/imagenes/portadas/1.jpg" style="width: 100%;"/></li>
+            <li class='num0 img slide'>  <a><img src='academy/static/src/imagenes/portadas/1.jpg' alt='titulo'/> </a> </li>
+            <li class='num1 img slide'>  <a><img src='academy/static/src/imagenes/portadas/2.jpg' alt='titulo2'/> </a> </li>
+            <li class='num2 img slide'>  <a><img src='academy/static/src/imagenes/portadas/3.jpg' alt='titulo3'/> </a> </li>
+        </ul>
+        <div class='cs_bullets'>
+            <label class='num0' for='cs_slide1_0'> <span class='cs_point'></span>
+                </label>
+            <label class='num1' for='cs_slide1_1'> <span class='cs_point'></span>
+                </label>
+            <label class='num2' for='cs_slide1_2'> <span class='cs_point'></span>
+                </label>
+        </div>
+        </div>
+
+
+<section id='c'>
+<article>
+
+<h5>horario de doctores</h5>
+<p>para poder consultar un doctor favor de verificar los horarios que aparecen en el siguiente enlace</p>
+<a t-attf-href='horario' class='verser g'>ver horarios</a>
+</article>
+
+
+<article>
+
+<h5>horario laboral</h5>
+<table class="open">
+<tbody><tr>
+  <td class="date"><i class="fa fa-clock-o"></i> lunes - viernes</td>
+  <td class="time">8 am - 5 pm</td>
+</tr>
+<tr>
+  <td class="date"><i class="fa fa-clock-o"></i> sabados</td>
+  <td class="time">9 am - 5 pm</td>
+</tr>
+<tr>
+  <td class="date"><i class="fa fa-clock-o"></i> domingos</td>
+  <td class="time">9 am - 6 pm</td>
+</tr>
+</tbody></table>
+</article>
+
+
+<article>
+<h5>servicios</h5>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+<a t-attf-href='/acerca' class='verser'>ver nuestros servicios</a>
+</article>
+ </section>
+    
+<section id='a'>
+<article>
+<img src="academy/static/src/imagenes/cirugia.jpg"/>
+<h5>cirugia</h5>
+<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero</p>
+</article>
+
+
+<article>
+<img src="academy/static/src/imagenes/blanquear.jpg"/>
+<h5>blanqueamiento de dientes</h5>
+<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</article>
+
+
+<article>
+<img src="academy/static/src/imagenes/implante.jpg"/>
+<h5>implante dental</h5>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+</article>
+ </section>
+
+
+<div id='tit'>
+    <h2 id='titulo'>conoce nuestros doctores</h2>
+</div>
+ 
+ <section>
+
+<article>
+
+<img src="academy/static/src/imagenes/1.jpg"/>
+<div class='fade'>
+<a>cirugia</a>
+<h5>Billy Mills</h5>
+<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero</p>
+</div>
+</article>
+
+
+<article>
+<img src="academy/static/src/imagenes/2.jpg"/>
+<div class='fade'>
+<a>cirugia dental</a>
+<h5>Grace Hill</h5>
+<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
+</article>
+
+
+<article>
+<img src="academy/static/src/imagenes/3.jpg"/>
+<div class='fade'>
+<a>cuidado dental</a>
+<h5>Crystal Nichols</h5>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+</div>
+</article>
+
+<article>
+<img src="academy/static/src/imagenes/4.jpg"/>
+<div class='fade'>
+<a>cardiologo</a>
+<h5>Alan Fisher</h5>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+</div>
+</article>
+
+<article>
+<img src="academy/static/src/imagenes/5.jpg"/>
+<div class='fade'>
+<a>cirugia dental</a>
+<h5>James Castro</h5>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+</div>
+</article>
+
+<article>
+<img src="academy/static/src/imagenes/6.jpg"/>
+<div class='fade'>
+<a>dentista</a>
+<h5>Amy Flores</h5>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+</div>
+</article>
+</section>
+<div class='sep'>
+<a t-attf-href='/acerca' class='verdoc'>ver todos los doctores</a>
+</div> 
+<div id='tit'>
+    <h2 id='titulo'>ultimas noticias</h2>
+</div>
+    <section id='b'>
+
+    <t t-foreach="products" t-as="product">
+    <a t-attf-href="/noticias?i={{product.id}}" widget="image"> 
+<article>
+
+<img t-att-src="'data:image/png;base64,%s' % to_text(product.foto)"/>
+<small><t t-esc="product.fecha_nacimiento"/></small>
+<h5 title=''><t t-esc="product.nombre"/></h5>
+<p><t t-esc="product.description"/></p>
+</article>
+</a></t>
+ </section>  
+
+
+<footer>
+    <div class='footmenu'><a t-attf-href="/">Inicio</a> <a t-attf-href="/noticias">Noticias</a> <a t-attf-href="/acerca">Qu&amp;iacute;enes Somos</a> <a t-attf-href="/servicios">Servicios</a> <a t-attf-href="/contacto">Contacto</a>
+</div>
+     <div class='copy'> <h3 title='OVERCLOCKTECH 2016Dise&amp;ntilde;o y Programac&amp;iacute;on Todos los derechos reservados &amp;copy; Alexander Brache inf 829-384-0994'>&amp;nbsp;&amp;copy; OVERCLOCKTECH&amp;nbsp; 2016</h3></div> 
+</footer>
+  <div id='IrArriba'>
+ <![CDATA[<a href='#Arriba'><span><span/></a>]]>
+    </div>
+
+      <script type="text/javascript" src="academy/static/src/js/jq.js"></script>
+       <script>jQuery.noConflict();jQuery(document).ready(function(){jQuery("#IrArriba").hide();jQuery(function(){jQuery(window).scroll(function(){if(jQuery(this).scrollTop()>200){jQuery("#IrArriba").fadeIn()}else{jQuery("#IrArriba").fadeOut()}});jQuery("#IrArriba a").click(function(){jQuery("body,html").animate({scrollTop:0},1000);return false})})});</script>
+
+        </template>
+    </data>
+</odoo>

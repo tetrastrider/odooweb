@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+                <template id="contacto">
+
+    <xpath expr="." position = "inside">
+      <link rel="stylesheet" href="academy/static/src/css/estilos.css"/>
+      <link rel="stylesheet" type="text/css" href="academy/static/src/css/contacto/index.css"/>
+      <link rel="stylesheet" type="text/css" href="academy/static/src/css/font-awesome.css"/>
+      <script type="text/javascript" src="academy/static/src/js/jq.js"></script>
+      <script type="text/javascript" src="academy/static/src/js/contacto/index.js"></script>
+      <script type="text/javascript" src="academy/static/src/js/jQuery-TE/jquery-te-1.4.0.min.js"></script>
+    </xpath>
+
+            <title>Contacto</title>
+
+<ul class="social"><li id='fcont'><i class="fa fa-map-marker"></i> <span>sarasota esq higuemota bella vista los robles 1 A 2</span></li>
+<li id='fcont'><i class="fa fa-phone"></i> <span>829 384 0994</span></li><li class="face"></li> <li class="twi"></li> <li class="gog"></li> <li class="cor"></li> </ul>
+    <header>
+<!--FIN-->
+
+<a t-attf-href="/"><span class="logo"></span></a>
+<nav>
+  <a t-attf-href="/">Inicio</a>
+  <a t-attf-href="/noticias">Noticias</a>
+  <a t-attf-href="/acerca">Doctores</a>
+  <a t-attf-href="/servicios">Servicios</a>
+
+  <a t-attf-href="contacto" title='hacer una cita' id='cita'>hacer una cita</a>
+</nav>
+</header>
+<section>
+  <iframe class="goframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/?ie=UTF8&amp;ll=18.455659,-69.93982&amp;spn=0.011907,0.021136&amp;t=m&amp;z=16&amp;output=embed"></iframe>
+ <br></br> 
+  <div class="form"> 
+    <div class="span"> 
+      <h5>Imformaci&amp;oacute;n de Cont&amp;aacute;cto</h5> 
+      <div class='divider'></div> 
+      <small>Sarasota # 40 Esq Higuemota Residencial Los Robles Apartamento 1 A 2.</small>
+       <p>El edificio principal de la Lotería Nacional Dominicana está ubicado en la avenida Independencia, esquina José Jiménez</p>
+       <p>Moya, La Feria, en Santo Domingo. </p>
+        <address> 
+          OverclockTech.<br></br>
+           Sarasota # 40 Esq Higuemota,<br></br>
+            Residencial Los Robles.<br></br>
+         <img src='academy/static/src/imagenes/tel.png'/> Telefono: +1 829-384-0994<br></br> <img src='academy/static/src/imagenes/print.png'/> FAX: +1 809-535-0381<br></br>
+          <img src='academy/static/src/imagenes/carta.png'/> E-mail: <a t-attf-href="mailto:alexanderbrache@gmail.com">alexanderbrache@gmail.com<script type="text/javascript">(function(){try{var p,o,h,g,d,m,f,n=document.getElementsByTagName("script");f=n[n.length-1].previousSibling;o=f.getAttribute("data-cfemail");if(o){p="";d=parseInt(o.substr(0,2),16);for(g=2;o.length-g;g+=2){m=parseInt(o.substr(g,2),16)^d;p+=String.fromCharCode(m)}p=document.createTextNode(p);f.parentNode.replaceChild(p,f)}}catch(k){}})();</script></a>
+         <br></br> 
+          <img src='academy/static/src/imagenes/user.png'/> Alexander Brache 
+         <br></br>
+     </address>
+         </div> <div class="cform"> <h5>Cont&amp;aacute;ctenos</h5> <div id="contact_form"> <div id="result"></div> <input type="text" placeholder="Nombre:" name="name" id="name"/> <input type="text" placeholder="E-mail:" name="email" id="email"/> <input type="text" placeholder="Telefono:" name="phone" id="phone"/> <textarea name="message" id="message" placeholder="Mensaje:"></textarea> <input type="submit" id="submit_btn" class="csubmit" value="ENVIAR"/> <input type="reset" Value="Borrar" id="borrar"/> </div> </div> </div> </section>  
+
+<!--FIN-->
+<footer>
+    <div class='footmenu'><a t-attf-href="/">Inicio</a> <a t-attf-href="/noticias">Noticias</a> <a t-attf-href="/acerca">Qu&amp;iacute;enes Somos</a> <a t-attf-href="/servicios">Servicios</a> <a t-attf-href="/contacto">Contacto</a>
+</div>
+     <div class='copy'> <h3 title='OVERCLOCKTECH 2016Dise&amp;ntilde;o y Programac&amp;iacute;on Todos los derechos reservados &amp;copy; Alexander Brache inf 829-384-0994'>&amp;nbsp;&amp;copy; OVERCLOCKTECH&amp;nbsp; 2016</h3></div> 
+</footer>
+  <div id='IrArriba'>
+ <![CDATA[<a href='#Arriba'><span><span/></a>]]>
+    </div>
+
+      <script type="text/javascript" src="academy/static/src/js/jq.js"></script>
+       <script>jQuery.noConflict();jQuery(document).ready(function(){jQuery("#IrArriba").hide();jQuery(function(){jQuery(window).scroll(function(){if(jQuery(this).scrollTop()>200){jQuery("#IrArriba").fadeIn()}else{jQuery("#IrArriba").fadeOut()}});jQuery("#IrArriba a").click(function(){jQuery("body,html").animate({scrollTop:0},1000);return false})})});</script>
+
+        </template>
+    </data>
+</odoo>

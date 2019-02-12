@@ -1,0 +1,22 @@
+@charset "utf-8";
+.openerp .oe_margin_top_8 {
+    margin-top: 8px;
+    color:red;
+    border-color:blue;
+}
+
+.o_column_sortable,.o_list_record_selector{
+	color:white!important;
+	background-color:black;
+	text-align:center!important;
+	font-weight: 900;
+}
+
+td {
+    padding: 1vw!important;
+    text-align: center;
+    font-weight: bold;
+    color: grey;
+}
+
+.o_column_sortable{padding:.5vw 0;}
